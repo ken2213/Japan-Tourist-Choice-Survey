@@ -116,6 +116,7 @@ label {
 }
 
 
+
 /* This section for media query*/
 
 @media screen and (min-width: 768px) {
@@ -123,6 +124,7 @@ label {
     max-width: 840px;
   }
 }
+
 
 
 @media screen and (min-width: 576px) {
