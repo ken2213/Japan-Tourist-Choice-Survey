@@ -1,6 +1,7 @@
-# Demo
+# Project Name
 
-This is my first version of Japan Tourist Choice Survey Form!
+Japan Tourists Choice Survey ver 1.1
 
-## Subheader 
+## Description 
 
+This is my first version of Japan Tourist Choice survey form webpage created using HTML and CSS
