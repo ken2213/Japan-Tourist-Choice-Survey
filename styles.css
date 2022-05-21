@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #f3f3f3;
+  --color-green: #37af65;
+}
+
+body {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-white);
+  margin: auto;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /*background: ;*/
+  background-image: linear-gradient( 30deg, rgba(109, 126, 140, 0.2), rgba(1, 35, 64, 0.8)), url('https://w.wallhaven.cc/full/wq/wallhaven-wqxmdq.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  display: block;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+form {
+  background: rgba(1, 28, 38, 0.8);
+  padding: 2.5rem;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  cursor: default;
+}
+
+/* This section for class attributes */
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  padding: 0px 0.625rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h1-bold {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.form-group {
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 1.125rem 0.5rem;
+  font-size: 1rem;
+  color: black;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  
+}
+
+.input-radio, .input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.font-size {
+  font-size: 1.250rem;
+  font-weight: 550;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: var(--color-white);
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* This section for id attributes */
+
+
+
+
+/* This section for media query*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 840px;
+  }
+}
+
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 720px;
+  }
+}

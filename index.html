@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Japan Tourist Survey</title>
+</head>
+  <body>
+
+
+
+    <div class="container">  
+      <header class="header">
+        <h1 id="title" class="text-center h1-bold">Japan Tourist Choice</h1>    
+        <em>
+          <p id="description" class="text-center">Thank you for taking time answering this survey, this will help us determine what foreigners like on Japan!
+          </p>
+        </em>
+      
+      </header>
+
+
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label" class="font-size">Name<br></label>
+          <input class="form-control" id="name" type="text" placeholder="Enter your name" required></div> 
+
+        <div class="form-group">
+          <label for="email" id="email-label" class="font-size">Email<br></label>
+          <input class="form-control" id="email" type="email" placeholder="Enter your email" required></div>
+
+        <div class="form-group">
+          <label for="number" id="number-label" class="font-size">Age <em>(optional)</em><br></label>
+          <input class="form-control" id="number" type="number" placeholder="Age" min="10" max="100"></div>
+
+
+
+
+        <div class="form-group"> 
+
+          <p class="font-size">Gender</p>
+
+          <label for="male">
+            <input id="male" class="input-radio" value="male" type="radio" name="gender-name"> Male<br></label>
+
+          <label for="female">
+            <input id="female" class="input-radio" value="female" type="radio" name="gender-name"> Female<br></label>
+
+          <label for="agender">
+            <input id="agender" class="input-radio" value="agender" type="radio" name="gender-name"> Agender<br></label></div>
+
+
+
+        <div class="form-group">
+
+         <label for="continent-select" class="font-size">Continent</label> 
+
+         <select name="continent" id="continent-select" class="form-control">
+           <option value="">--Select your continent--</option>
+           <option value="africa">Africa</option>
+           <option value="asia">Asia</option>
+           <option value="antartica">Antartica</option>
+           <option value="europe">Europe</option>
+           <option value="north-america">North America</option>
+           <option value="south-america">South America</option>
+           <option value="oceania">Oceania</option>
+         </select>
+        </div>
+
+
+
+        <div class="form-group">
+
+          <p class="font-size">Places you wanna visit <em>(Select one or more)</em></p>
+
+          <label for="tokyo">
+            <input id="tokyo" class="input-checkbox" value="tokyo" type="checkbox" name="japan-city"> Tokyo
+          </label>
+
+          <label for="osaka">
+            <input id="osaka" class="input-checkbox" value="osaka" type="checkbox" name="japan-city"> Osaka
+          </label>
+
+          <label for="kyoto">
+            <input id="kyoto" class="input-checkbox" value="kyoto" type="checkbox" name="japan-city"> Kyoto
+          </label>
+
+          <label for="sapporo">
+            <input id="sapporo" class="input-checkbox" value="sapporo" type="checkbox" name="japan-city"> Sapporo
+          </label>
+
+          <label for="okinawa">
+            <input id="okinawa" class="input-checkbox" value="okinawa" type="checkbox" name="japan-city"> Okinawa
+          </label>
+
+          <label for="niigata">
+            <input id="niigata" class="input-checkbox" value="niigata" type="checkbox" name="japan-city"> Niigata
+          </label>
+
+          <label for="sendai">
+            <input id="sendai" class="input-checkbox" value="sendai" type="checkbox" name="japan-city"> Sendai
+          </label>
+
+          <label for="nara">
+            <input id="nara" class="input-checkbox" value="nara" type="checkbox" name="japan-city"> Nara
+          </label>
+
+        </div>
+
+
+
+        <div class="form-group">
+          <label for="comment" class="font-size">Your bucketlists<br></label>
+          <textarea class="input-text form-control " id="comment" name="comment" rows="10" cols="50" placeholder="Please enter the things you wanna do in Japan!"></textarea></div>
+
+
+
+        <div class="form-group">
+          <button class="submit-button" type="submit" id="submit"> Submit </button>
+        </div>          
+      </form>
+    </div>
+  </body>
+</body>
+</html>
